@@ -1,4 +1,3 @@
-"use strict";
 const CyclicTag = require("./cyclicTag.es6");
 
 let example = new CyclicTag("010", "000", "1111");
