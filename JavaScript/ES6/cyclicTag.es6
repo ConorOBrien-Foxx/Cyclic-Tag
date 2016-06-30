@@ -1,6 +1,4 @@
-"use strict";
-
-class CyclicTag {    
+export default class CyclicTag {    
     constructor(...inputProds){
         let prods = new Map();
         inputProds.forEach((p, i) => prods.set(i, p));
@@ -32,5 +30,3 @@ class CyclicTag {
         return " ".repeat(val[0]) + val[1];
     }
 }
-
-exports.defualt = module.exports = CyclicTag;
