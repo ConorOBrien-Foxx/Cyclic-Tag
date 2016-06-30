@@ -1,5 +1,3 @@
-"use strict";
-
 class CyclicTag {    
     constructor(...inputProds){
         let prods = new Map();
